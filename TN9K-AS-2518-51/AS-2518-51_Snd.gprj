@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="proms/U4_ROM.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/AS-2518-51_core.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Debouncer.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/KeyboardMapper.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/PS2Controller.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/ay-3-8910-core.Vhd" type="file.vhdl" enable="1"/>
+        <File path="src/ay-3-8910.Vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu68.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/m6810.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/minibd_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pia6821.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/AS-2518-51_Snd.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
