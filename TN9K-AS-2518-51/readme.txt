@@ -10,5 +10,5 @@ Build:
 * Run the make sound proms script in the tools folder.
 * Place the generated prom file inside the proms folder.
 * Open the AS-2518-51_Snd project file using Gowin and compile.
-
 * Program Tang Nano 9K Board.
+
